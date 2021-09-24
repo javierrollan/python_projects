@@ -25,6 +25,5 @@ for i in {01..52};
 for i in {01..52};
     do 
         cd Exercise$i && touch README.md && echo "# Exercise $i" > README.md && cd ..;
-
     done
 ```
